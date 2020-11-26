@@ -33,10 +33,10 @@ The course consists of more than 1,500 hours divided into 39 blocks that cover c
 - [x] HTML & CSS - Primeiros passos em CSS
 - [x] HTML & CSS - Seletores e posicionamento
 - [x] HTML Semântico
-- [ ] Projeto - Lessons Learned 
+- [x] Projeto - Lessons Learned 
 
 ### Bloco 4: Introdução à JavaScript e Lógica de Programação
-- [ ] Introdução - JavaScript
+- [x] Introdução - JavaScript
 - [ ] JavaScript - Primeiros passos
 - [ ] JavaScript - Array e loop For
 - [ ] JavaScript - Lógica de Programação e Algoritmos
