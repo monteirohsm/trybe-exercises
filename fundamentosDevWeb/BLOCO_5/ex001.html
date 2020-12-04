@@ -59,7 +59,7 @@
     <script>
       // COLOQUE SEU CÓDIGO AQUI
       let titulo = document.createElement('h1');
-      titulo.id = 'tituloId';
+      titulo.className = 'title';
       titulo.innerText = 'titulo generico'
       document.body.appendChild(titulo)
 
@@ -96,6 +96,18 @@
          listaItem.innerHTML = numeroArrays[contador]
          lista.appendChild(listaItem)
       }
+
+      for (let index = 0; index < 3; index += 1){
+          let h3 = document.createElement('h3')
+          document.querySelector('.right-content').appendChild(h3)
+          h3.className = 'description'
+      }
+      document.querySelector('.main-content').removeChild(divFilha2)
+      divFilha3.style.marginRight = 'auto'
+      divFilha.style.backgroundColor = 'green'
+      lista.lastChild.remove()
+      lista.lastChild.remove()
+
     </script>
   </body>
 </html>
