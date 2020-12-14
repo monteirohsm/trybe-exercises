@@ -44,13 +44,13 @@ The course consists of more than 1,500 hours divided into 39 blocks that cover c
 - [x] Projeto - Playground Functions
 
 ### Bloco 5: JavaScript: DOM, Eventos e Web Storage
-- [ ] JavaScript - DOM e seletores
-- [ ] JavaScript - Trabalhando com elementos
-- [ ] JavaScript - Eventos
-- [ ] JavaScript - Web Storage
-- [ ] Fundamentos - JavaScript - Projetos
-- [ ] Projeto - Arte com Pixels
-- [ ] Projeto - Lista de tarefas
+- [X] JavaScript - DOM e seletores
+- [X] JavaScript - Trabalhando com elementos
+- [X] JavaScript - Eventos
+- [X] JavaScript - Web Storage
+- [X] Fundamentos - JavaScript - Projetos
+- [X] Projeto - Arte com Pixels
+- [X] Projeto - Lista de tarefas
 - [ ] (Bônus) Projeto - Meme Generator
 - [ ] (Bônus) Projeto - Adivinhe a Cor
 - [ ] (Bônus) Projeto - Carta Misteriosa
