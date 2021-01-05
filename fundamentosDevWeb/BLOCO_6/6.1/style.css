@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: uppercase;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.style-form {
+  text-align: center;
+  margin: 20px auto;
+  line-height: 1.3;
+  width: 50%;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  border: 1px solid whitesmoke;
+}
+
+.style-form-label {
+  display: block;
+  margin: 4px 0;
+}
+
+.style-form-label-list {
+  display: inline-block;
+  width: 100%;
+}
+
+.label-line {
+  display: inline-block;
+  padding: 10px;
+}
+
+.area-border {
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 3px;
+}
+
+textarea {
+  resize: vertical;
+}

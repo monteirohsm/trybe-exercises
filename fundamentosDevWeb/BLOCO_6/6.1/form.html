@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercicio 6.1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <fieldset class="style-form">
+      <div class="line-div">
+        <label class="style-form-label" for="input-text-id">Nome:</label>
+        <input
+          class="area-border"
+          type="text"
+          name="input-text"
+          id="input-text-id"
+          maxlength="40"
+          required
+        />
+      </div>
+      <div class="line-div">
+        <label class="style-form-label" for="input-email-id">Email:</label>
+        <input
+          class="area-border"
+          type="email"
+          name="input-email"
+          maxlength="50"
+          id="input-email-id"
+          required
+        />
+      </div>
+      <div class="line-div">
+        <label class="style-form-label" for="input-cpf-id">CPF:</label>
+        <input
+          class="area-border"
+          type="text"
+          name="input-cpf"
+          maxlength="11"
+          id="input-cpf-id"
+          required
+        />
+      </div>
+      <div class="line-div">
+        <label class="style-form-label" for="input-endereco-id"
+          >Endereço:</label
+        >
+        <input
+          class="area-border"
+          type="text"
+          name="input-endereco"
+          maxlength="200"
+          id="input-endereco-id"
+          required
+        />
+      </div>
+      <div class="line-div">
+        <label class="style-form-label" for="input-cidade-id">Cidade:</label>
+        <input
+          class="area-border"
+          type="text"
+          name="input-cidade"
+          maxlength="28"
+          id="input-cidade-id"
+          required
+        />
+      </div>
+      <div class="line-div">
+        <label class="style-form-label" for="input-estado-id">Estado:</label>
+        <select name="input-estado" id="input-estado-id" required></select>
+      </div>
+      <div class="style-form-label-list">
+        <div class="label-line">
+          <input
+            type="radio"
+            name="input-radio"
+            id="input-radio-id-1"
+            required
+          />
+          <label for="input-radio-id-1">Casa</label>
+        </div>
+        <div class="label-line">
+          <input
+            type="radio"
+            name="input-radio"
+            id="input-radio-id-2"
+            required
+          />
+          <label for="input-radio-id-2">Apartamento</label>
+        </div>
+      </div>
+    </fieldset>
+
+    <br />
+    <fieldset class="style-form">
+      <label class="style-form-label" for="input-text-area-id"
+        >Resumo do Currículo:</label
+      >
+      <textarea
+        class="area-border"
+        name="input-text-area"
+        id="input-text-area-id"
+        cols="30"
+        rows="3"
+        maxlength="1000"
+      ></textarea>
+      <label class="style-form-label" for="input-cargo-id">Cargo:</label>
+      <input
+        class="area-border"
+        type="text"
+        name="input-cargo"
+        maxlength="40"
+        id="input-cargo-id"
+        required
+      />
+      <label class="style-form-label" for="input-descricao-id"
+        >Descrição do Cargo:</label
+      >
+      <input
+        type="text"
+        class="area-border"
+        name="input-descricao"
+        maxlength="500"
+        id="input-descricao-id"
+        required
+      />
+      <label class="style-form-label" for="input-data-id">Data:</label>
+      <input
+        class="area-border"
+        type="text"
+        name="input-data"
+        id="input-data-id"
+        required
+      />
+    </fieldset>
+    <script src="script.js"></script>
+  </body>
+</html>
